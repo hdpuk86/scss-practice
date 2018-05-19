@@ -1,8 +1,55 @@
-.section {
+%box-section {
   border: $border;
   border-radius: $border-radius;
-  background: $section-colour;
+  background: $box-section-bg;
   padding: $margin;
   margin: $margin auto;
-  width: 50%;
+  width: 45%;
+}
+
+.box-section {
+  @extend %box-section;
+}
+
+.box-section-inline {
+  @extend %box-section;
+  display: inline-block;
+  margin: $margin;
+}
+
+.box-section-inline-container {
+  width: 100%;
+  margin: $margin;
+  padding: $margin;
+  text-align: center;
+}
+
+.page-section-white {
+  background: $body-bg;
+  padding: $margin;
+  width: 100%;
+  min-height: 500px;
+  max-height: fit-content;
+  .box-section,
+  .box-section-inline {
+    border: none;
+    background: inherit;
+  }
+}
+
+.page-section-colour {
+  background: $secondary-colour;
+  padding: $margin;
+  width: 100%;
+  min-height: 500px;
+  max-height: fit-content;
+  h1, h2, h3, h4, h5, h6, p {
+    color: $white-font-colour;
+  }
+  .box-section,
+  .box-section-inline {
+    h1, h2, h3, h4, h5, h6, p {
+      color: $black-font-colour;
+    }
+  }
 }
