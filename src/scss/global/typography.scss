@@ -1,0 +1,34 @@
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $h1-font-colour;
+  font-size: $h1-web-size;
+}
+h2 {
+  color: $h2-font-colour;
+  font-size: $h2-web-size;
+}
+h3 {
+  color: $h3-font-colour;
+  font-size: $h3-web-size;
+}
+h4 {
+  color: $h4-font-colour;
+  font-size: $h4-web-size;
+}
+h5 {
+  color: $h5-font-colour;
+  font-size: $h5-web-size;
+}
+h6 {
+  color: $h6-font-colour;
+  font-size: $h6-web-size;
+}
+p {
+  color: $p-font-colour;
+  font-size: $p-web-size;
+}
