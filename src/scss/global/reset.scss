@@ -4,8 +4,13 @@ body {
   background: $body-bg;
   font-family: $font-family;
   line-height: $line-spacing;
-  h1, h2, h3, h4, h5, h6, p {
+  h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
   }
+}
+
+.main-content {
+  // header height + the two margins (header margin, section margin) + header border width
+  margin-top: calc(#{$header-height} + calc(#{$margin} * 2) + 1px);
 }

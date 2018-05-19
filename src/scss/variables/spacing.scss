@@ -1,2 +1,5 @@
 // margin & padding -- use calc() to increase/decrease with these ratio
 $margin: 10px;
+
+// heights
+$header-height: calc(#{$margin}*5);

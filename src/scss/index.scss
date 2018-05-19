@@ -1,9 +1,12 @@
-@import './global/variables/colour.scss';
-@import './global/variables/font.scss';
-@import './global/variables/media-queries.scss';
-@import './global/variables/spacing.scss';
-@import './global/variables/border.scss';
+@import './variables/colour.scss';
+@import './variables/font.scss';
+@import './variables/media-queries.scss';
+@import './variables/spacing.scss';
+@import './variables/border.scss';
 
 @import './global/typography.scss';
 @import './global/section.scss';
 @import './global/reset.scss';
+@import './global/link.scss';
+
+@import './components/header.scss';

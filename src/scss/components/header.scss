@@ -1,0 +1,38 @@
+.header {
+  background: $primary-colour;
+  color: $white-font-colour;
+  border-bottom: $header-border;
+  padding: $margin;
+  position: fixed;
+  top: 0;
+  height: $header-height;
+  width: 100%;
+  h1, h2, h3, h4, h5 ,h6, p {
+    color: $white-font-colour;
+  }
+  h1 {
+    display: inline-block;
+    max-width: 200px;
+  }
+}
+
+.navigation {
+  display: inline-block;
+  li {
+    padding: 0 $margin;
+    margin: 0 $margin;
+    display: inline-block;
+    width: fit-content;
+    a {
+      padding: 0 $margin;
+      margin: 0 $margin;
+      color: inherit;
+      font-size: $h1-web-size;
+      border-bottom: 2px solid transparent;
+      text-decoration: none;
+    }
+    a:hover, a:focus {
+      border-bottom: 2px solid $white-font-colour;
+    }
+  }
+}
