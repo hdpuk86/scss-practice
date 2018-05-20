@@ -1,5 +1,11 @@
-a {
+a, a:visited {
+  margin: 0;
+  padding: 0;
   color: $a-font-colour;
   font-size: $a-web-size;
   font-weight: 400;
+}
+
+a:hover, a:focus {
+  color: $grey-font-colour;
 }

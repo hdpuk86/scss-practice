@@ -48,14 +48,10 @@ p {
   font-weight: 400;
   max-width: 65ch;
 }
-a, ul, li {
+ul, li {
   margin: 0;
   padding: 0;
-  color: $a-font-colour;
-  font-size: $a-web-size;
+  color: $p-font-colour;
+  font-size: $p-web-size;
   font-weight: 400;
-}
-
-a:hover, a:focus, a:active {
-  color: $grey-font-colour;
 }
