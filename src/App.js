@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import Header from './containers/header-container.js';
+import Header from './containers/global/header-container.js';
+import PageSection from './containers/sections/page-section-container';
+import BoxSection from './containers/sections/box-section-container';
+import TypographyExample from './components/examples/typography';
 
 class App extends Component {
   render() {
@@ -7,154 +10,56 @@ class App extends Component {
       <div className="app-container">
         <Header />
         <section className="main-content">
-          <section className="page-section-colour_primary" >
-            <h1>.page-section-colour_primary</h1>
-            <section className="box-section">
-              <h1>.box-section</h1>
-              <h1>Heading 1</h1>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </section>
-          <section className="page-section-colour_secondary" >
-            <h1>.page-section-colour_secondary</h1>
-            <section className="box-section">
-              <h1>.box-section</h1>
-              <h1>Heading 1</h1>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </section>
-          <section className="page-section-white" >
-            <h1>.page-section-white</h1>
-            <section className="box-section">
-              <h1>.box-section</h1>
-              <h1>Heading 1</h1>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </section>
-          <section className="page-section-colour_primary">
-            <h1>.page-section-colour_primary</h1>
-            <section className="box-section">
-              <h1>.box-section</h1>
-              <h1>Heading 1</h1>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            <section className="box-section">
-              <h1>.box-section</h1>
-              <h1>Heading 1</h1>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </section>
-          <section className="page-section-white" >
-            <h1>.page-section-white</h1>
-            <section className="box-section">
-              <h1>.box-section</h1>
-              <h1>Heading 1</h1>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </section>
-            <section className="page-section-colour_secondary">
+          <PageSection colour="primary">
+            <React.Fragment>
+              <h1>.page-section-colour_primary</h1>
+              <BoxSection>
+                <TypographyExample />
+              </BoxSection>
+            </React.Fragment>
+          </PageSection>
+          <PageSection colour="white">
+            <React.Fragment>
+              <h1>.page-section-white</h1>
+              <BoxSection>
+                <TypographyExample />
+              </BoxSection>
+              <BoxSection>
+                <TypographyExample />
+              </BoxSection>
+            </React.Fragment>
+          </PageSection>
+          <PageSection colour="secondary">
+            <React.Fragment>
               <h1>.page-section-colour_secondary</h1>
               <section className="box-section-inline-container">
                 <h1>.box-section-inline-container</h1>
-                <section className="box-section-inline">
-                  <h1>.box-section-inline</h1>
-                  <h1>Heading 1</h1>
-                  <h2>Heading 2</h2>
-                  <h3>Heading 3</h3>
-                  <h4>Heading 4</h4>
-                  <h5>Heading 5</h5>
-                  <h6>Heading 6</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </section>
-              <section className="box-section-inline">
-                <h1>.box-section-inline</h1>
-                <h1>Heading 1</h1>
-                <h2>Heading 2</h2>
-                <h3>Heading 3</h3>
-                <h4>Heading 4</h4>
-                <h5>Heading 5</h5>
-                <h6>Heading 6</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </section>
+                <BoxSection inline>
+                  <TypographyExample />
+                </BoxSection>
+                <BoxSection inline>
+                  <TypographyExample />
+                </BoxSection>
             </section>
-          </section>
-            <section className="page-section-white">
-              <h1>.page-section-white</h1>
+            </React.Fragment>
+          </PageSection>
+          <PageSection colour="white">
+            <React.Fragment>
+              <h1>.page-section-colour_white</h1>
               <section className="box-section-inline-container">
                 <h1>.box-section-inline-container</h1>
-                <section className="box-section-inline">
-                  <h1>.box-section-inline</h1>
-                  <h1>Heading 1</h1>
-                  <h2>Heading 2</h2>
-                  <h3>Heading 3</h3>
-                  <h4>Heading 4</h4>
-                  <h5>Heading 5</h5>
-                  <h6>Heading 6</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </section>
-              <section className="box-section-inline">
-                <h1>.box-section-inline</h1>
-                <h1>Heading 1</h1>
-                <h2>Heading 2</h2>
-                <h3>Heading 3</h3>
-                <h4>Heading 4</h4>
-                <h5>Heading 5</h5>
-                <h6>Heading 6</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </section>
-              <section className="box-section-inline">
-                <h1>.box-section-inline</h1>
-                <h1>Heading 1</h1>
-                <h2>Heading 2</h2>
-                <h3>Heading 3</h3>
-                <h4>Heading 4</h4>
-                <h5>Heading 5</h5>
-                <h6>Heading 6</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Duis aute irure dolor in reprehenderit <a href="#">this is an inline link</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </section>
+                <BoxSection inline>
+                  <TypographyExample />
+                </BoxSection>
+                <BoxSection inline>
+                  <TypographyExample />
+                </BoxSection>
+                <BoxSection inline>
+                  <TypographyExample />
+                </BoxSection>
             </section>
-          </section>
+            </React.Fragment>
+          </PageSection>
         </section>
       </div>
     );
