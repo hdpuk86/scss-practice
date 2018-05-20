@@ -32,7 +32,8 @@
       text-decoration: none;
     }
     a:hover, a:focus {
-      border-bottom: 2px solid $white-font-colour;
+      color: $yellow-colour;
+      border-bottom: 2px solid $yellow-colour;
     }
   }
 }

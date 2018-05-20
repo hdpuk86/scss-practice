@@ -1,6 +1,29 @@
+%box-section-typ {
+  h1 {
+    color: $h1-font-colour;
+  }
+  h2 {
+    color: $h2-font-colour;
+  }
+  h3 {
+    color: $h3-font-colour;
+  }
+  h4 {
+    color: $h4-font-colour;
+  }
+  h5 {
+    color: $h5-font-colour;
+  }
+  h6 {
+    color: $h6-font-colour;
+  }
+  p {
+    color: $p-font-colour;
+  }
+}
+
 %box-section {
-  // border: $border;
-  // border-radius: $border-radius;
+  @extend %box-section-typ;
   background: $box-section-bg;
   padding: $margin;
   margin: $margin auto;
@@ -48,8 +71,6 @@
   }
   .box-section,
   .box-section-inline {
-    h1, h2, h3, h4, h5, h6, p {
-      color: $black-font-colour;
-    }
+    @extend %box-section-typ;
   }
 }
