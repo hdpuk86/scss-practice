@@ -1,5 +1,5 @@
 .header {
-  background: $primary-colour;
+  background: $black-colour;
   color: $white-font-colour;
   border-bottom: $header-border;
   padding: $margin;
@@ -7,7 +7,7 @@
   top: 0;
   height: $header-height;
   width: 100%;
-  h1, h2, h3, h4, h5 ,h6, p {
+  h1, h2, h3, h4, h5 ,h6, p, ul, li, a {
     color: $white-font-colour;
   }
   h1 {

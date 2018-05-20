@@ -1,10 +1,11 @@
 // main colour palette
-$primary-colour: #0B4F6C;
-$secondary-colour: #00A5CF;
-$black-colour: #131B1E;
-$dark-grey-colour: #5B646B;
+$black-colour: #2D2E2E;
+$dark-grey-colour: #716969;
+$white-colour: #F0F7F4;
 $light-grey-colour: #ccc;
-$white-colour: #fff;
+$primary-colour: #98C1D9;
+$tertiary-colour: #FFFC31;
+$secondary-colour: #982649;
 $yellow-colour: #FFFC31;
 
 // font colours
@@ -20,7 +21,7 @@ $h4-font-colour: $black-font-colour;
 $h5-font-colour: $black-font-colour;
 $h6-font-colour: $black-font-colour;
 $p-font-colour: $black-font-colour;
-$a-font-colour: $contrast-font-colour;
+$a-font-colour: $secondary-colour;
 
 // background colours
 $body-bg: $white-colour;
