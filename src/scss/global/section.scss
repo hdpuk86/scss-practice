@@ -42,7 +42,7 @@
 }
 
 .box-section-inline-container {
-  width: 100%;
+  width: 100vw;
   margin: $margin;
   padding: $margin;
   text-align: center;
@@ -51,7 +51,7 @@
 %page-section {
   background: $body-bg;
   padding: $margin;
-  width: 100%;
+  width: 100vw;
   min-height: 500px;
   max-height: fit-content;
 }

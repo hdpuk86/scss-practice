@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
-import BoxSection from '../../components/sections/box-section.js';
+import React from 'react';
+import BoxSection from '../../components/sections/box-section';
 
-class BoxSectionContainer extends Component {
-  render() {
-    const { inline, children } = this.props;
-    return (
-      <BoxSection inline={inline}>
-        {children}
-      </BoxSection>
-    )
-  }
-}
+const BoxSectionContainer = (props) => {
+  const { inline, children } = props;
+  return (
+    <BoxSection inline={inline}>
+      {children}
+    </BoxSection>
+  );
+};
 
 export default BoxSectionContainer;

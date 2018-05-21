@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
-import PageSection from '../../components/sections/page-section.js';
+import React from 'react';
+import PageSection from '../../components/sections/page-section';
 
-class PageSectionContainer extends Component {
-  render() {
-    const { colour, children } = this.props;
-    return (
-      <PageSection colour={colour}>
-        {children}
-      </PageSection>
-    )
-  }
-}
+const PageSectionContainer = (props) => {
+  const { colour, children } = props;
+  return (
+    <PageSection colour={colour}>
+      {children}
+    </PageSection>
+  );
+};
 
 export default PageSectionContainer;
