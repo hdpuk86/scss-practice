@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../..//containers/global/header-container';
+import Header from '../../containers/global/header-container';
 import PageSection from '../../containers/sections/page-section-container';
 import BoxSection from '../../containers/sections/box-section-container';
 import TypographyExample from '../examples/typography';
